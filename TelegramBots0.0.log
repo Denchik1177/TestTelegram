@@ -4415,3 +4415,1692 @@
 	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
 	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:154)
 	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_14:1:59] {SEVERE} HUEBOT - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:173)
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:666)
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:47)
+	at org.example.handlers.HueHandlers.gptReaction(HueHandlers.java:107)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:53)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_14:4:20] {SEVERE} HUEBOT - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:173)
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:666)
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:47)
+	at org.example.handlers.HueHandlers.gptReaction(HueHandlers.java:107)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:53)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_14:4:28] {SEVERE} HUEBOT - java.lang.NullPointerException: Cannot invoke "io.github.zeroone3010.yahueapi.Hue.getRooms()" because "hue" is null
+	at org.example.hue.HueController.getAllLights(HueController.java:56)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:124)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_14:5:50] {SEVERE} HUEBOT - java.lang.NullPointerException: Cannot invoke "io.github.zeroone3010.yahueapi.Hue.getRooms()" because "hue" is null
+	at org.example.hue.HueController.getAllLights(HueController.java:56)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:124)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_14:5:50] {SEVERE} HUEBOT - java.lang.NullPointerException: Cannot invoke "io.github.zeroone3010.yahueapi.Hue.getRooms()" because "hue" is null
+	at org.example.hue.HueController.getAllLights(HueController.java:56)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:124)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_14:5:50] {SEVERE} HUEBOT - java.lang.NullPointerException: Cannot invoke "io.github.zeroone3010.yahueapi.Hue.getRooms()" because "hue" is null
+	at org.example.hue.HueController.getAllLights(HueController.java:56)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:124)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_14:5:50] {SEVERE} BOTSESSION - org.apache.http.NoHttpResponseException: api.telegram.org:443 failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:141)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:165)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:244)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_14:5:50] {SEVERE} HUEBOT - java.lang.NullPointerException: Cannot invoke "io.github.zeroone3010.yahueapi.Hue.getRooms()" because "hue" is null
+	at org.example.hue.HueController.getAllLights(HueController.java:56)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:124)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_14:5:50] {SEVERE} HUEBOT - java.lang.NullPointerException: Cannot invoke "io.github.zeroone3010.yahueapi.Hue.getRooms()" because "hue" is null
+	at org.example.hue.HueController.getAllLights(HueController.java:56)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:124)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_14:5:50] {SEVERE} HUEBOT - java.lang.NullPointerException: Cannot invoke "io.github.zeroone3010.yahueapi.Hue.getRooms()" because "hue" is null
+	at org.example.hue.HueController.getAllLights(HueController.java:56)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:124)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_14:5:50] {SEVERE} HUEBOT - java.lang.NullPointerException: Cannot invoke "io.github.zeroone3010.yahueapi.Hue.getRooms()" because "hue" is null
+	at org.example.hue.HueController.getAllLights(HueController.java:56)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:124)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_14:5:50] {SEVERE} HUEBOT - java.lang.NullPointerException: Cannot invoke "io.github.zeroone3010.yahueapi.Hue.getRooms()" because "hue" is null
+	at org.example.hue.HueController.getAllLights(HueController.java:56)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:124)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_14:5:50] {SEVERE} HUEBOT - java.lang.NullPointerException: Cannot invoke "io.github.zeroone3010.yahueapi.Hue.getRooms()" because "hue" is null
+	at org.example.hue.HueController.getAllLights(HueController.java:56)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:124)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_14:5:50] {SEVERE} HUEBOT - java.lang.NullPointerException: Cannot invoke "io.github.zeroone3010.yahueapi.Hue.getRooms()" because "hue" is null
+	at org.example.hue.HueController.getAllLights(HueController.java:56)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:124)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_14:5:50] {SEVERE} HUEBOT - java.lang.NullPointerException: Cannot invoke "io.github.zeroone3010.yahueapi.Hue.getRooms()" because "hue" is null
+	at org.example.hue.HueController.getAllLights(HueController.java:56)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:124)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_14:5:50] {SEVERE} HUEBOT - java.lang.NullPointerException: Cannot invoke "io.github.zeroone3010.yahueapi.Hue.getRooms()" because "hue" is null
+	at org.example.hue.HueController.getAllLights(HueController.java:56)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:124)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_14:5:50] {SEVERE} HUEBOT - java.lang.NullPointerException: Cannot invoke "io.github.zeroone3010.yahueapi.Hue.getRooms()" because "hue" is null
+	at org.example.hue.HueController.getAllLights(HueController.java:56)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:124)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_14:5:50] {SEVERE} HUEBOT - java.lang.NullPointerException: Cannot invoke "io.github.zeroone3010.yahueapi.Hue.getRooms()" because "hue" is null
+	at org.example.hue.HueController.getAllLights(HueController.java:56)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:124)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_14:5:50] {SEVERE} HUEBOT - java.lang.NullPointerException: Cannot invoke "io.github.zeroone3010.yahueapi.Hue.getRooms()" because "hue" is null
+	at org.example.hue.HueController.getAllLights(HueController.java:56)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:124)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_14:27:32] {SEVERE} HUEBOT - java.lang.NullPointerException: Cannot invoke "io.github.zeroone3010.yahueapi.Hue.getRooms()" because "hue" is null
+	at org.example.hue.HueController.getAllLights(HueController.java:56)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:124)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_14:27:32] {SEVERE} HUEBOT - java.lang.NullPointerException: Cannot invoke "io.github.zeroone3010.yahueapi.Hue.getRooms()" because "hue" is null
+	at org.example.hue.HueController.getAllLights(HueController.java:56)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:124)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_14:29:51] {SEVERE} HUEBOT - java.lang.NullPointerException: Cannot invoke "io.github.zeroone3010.yahueapi.Hue.getRooms()" because "hue" is null
+	at org.example.hue.HueController.getAllLights(HueController.java:56)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:124)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_14:32:42] {SEVERE} HUEBOT - java.lang.NullPointerException: Cannot invoke "io.github.zeroone3010.yahueapi.Hue.getRooms()" because "hue" is null
+	at org.example.hue.HueController.getAllLights(HueController.java:56)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:124)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_14:33:26] {SEVERE} HUEBOT - java.lang.NullPointerException: Cannot invoke "io.github.zeroone3010.yahueapi.Hue.getRooms()" because "hue" is null
+	at org.example.hue.HueController.getAllLights(HueController.java:56)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:124)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_14:33:50] {SEVERE} HUEBOT - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:173)
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:666)
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:47)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:127)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_14:33:52] {SEVERE} HUEBOT - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:173)
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:666)
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:47)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:127)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_14:33:54] {SEVERE} HUEBOT - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:173)
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:666)
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:47)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:127)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_14:34:3] {SEVERE} HUEBOT - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:173)
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:666)
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:47)
+	at org.example.handlers.HueHandlers.gptReaction(HueHandlers.java:107)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:53)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_14:34:38] {SEVERE} HUEBOT - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:173)
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:666)
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:47)
+	at org.example.handlers.HueHandlers.gptReaction(HueHandlers.java:107)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:53)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_15:59:12] {SEVERE} HUEBOT - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:173)
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:666)
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:47)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:127)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_16:6:54] {SEVERE} HUEBOT - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:173)
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:666)
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:47)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:127)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_16:8:6] {SEVERE} HUEBOT - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:173)
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:666)
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:47)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:127)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_16:8:44] {SEVERE} HUEBOT - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:173)
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:666)
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:47)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:127)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_16:10:19] {SEVERE} HUEBOT - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:173)
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:666)
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:47)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:127)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_16:19:6] {SEVERE} HUEBOT - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:173)
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:666)
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:47)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:127)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_16:20:39] {SEVERE} HUEBOT - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:173)
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:666)
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:47)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:127)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_16:21:10] {SEVERE} HUEBOT - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:173)
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:666)
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:47)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:127)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_16:23:15] {SEVERE} HUEBOT - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:173)
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:666)
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:47)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:127)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_16:25:5] {SEVERE} HUEBOT - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:173)
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:666)
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:47)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:127)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_16:25:33] {SEVERE} HUEBOT - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:173)
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:666)
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:47)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:127)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_16:28:57] {SEVERE} HUEBOT - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:173)
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:666)
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:47)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:127)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_16:29:8] {SEVERE} HUEBOT - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:173)
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:666)
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:47)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:127)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_16:29:40] {SEVERE} HUEBOT - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:173)
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:666)
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:47)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:127)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_16:34:6] {SEVERE} HUEBOT - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:173)
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:666)
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:47)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:127)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_16:34:24] {SEVERE} HUEBOT - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:173)
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:666)
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:47)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:127)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:51)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:151)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_17:26:28] {SEVERE} HUEBOT - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:173)
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:666)
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:47)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:140)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:54)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:40)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:165)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_17:26:30] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:30] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:31] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:32] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:32] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:33] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:34] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:34] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:35] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:35] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:36] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:37] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:37] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:38] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:38] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:39] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:39] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:40] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:41] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:41] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:42] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:42] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:43] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:44] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:44] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:45] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:46] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:46] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:47] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:47] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:48] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:48] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:49] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:50] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:51] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:51] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:52] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:53] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:53] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:54] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:54] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:55] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:56] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:56] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:57] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:57] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:58] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:59] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:26:59] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:0] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:0] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:1] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:1] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:2] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:3] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:3] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:4] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:5] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:5] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:6] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:6] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:7] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:8] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:8] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:9] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:10] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:10] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:11] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:11] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:12] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:13] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:13] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:14] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:14] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:15] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:16] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:16] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:17] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:17] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:18] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:19] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:27:19] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:25] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:25] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:26] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:27] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:27] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:28] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:29] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:30] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:30] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:31] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:32] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:33] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:33] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:34] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:35] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:35] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:36] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:37] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:37] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:38] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:39] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:40] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:40] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:41] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:42] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:42] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:43] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:44] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:45] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:45] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:46] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:47] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:28:48] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:30:59] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:31:0] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:31:0] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:31:1] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:31:1] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:31:2] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:31:3] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:31:3] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:10] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:11] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:12] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:12] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:13] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:13] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:14] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:15] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:15] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:16] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:17] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:17] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:18] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:19] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:19] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:20] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:20] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:21] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:21] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:22] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:23] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:23] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:24] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:24] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:25] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:26] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:26] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:27] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:27] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:28] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:29] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:29] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:30] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:31] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:31] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:32] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:32] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:33] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:33] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:34] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:35] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:35] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:36] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:36] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:37] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:38] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:38] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:39] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:39] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:40] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:41] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:41] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:42] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:42] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:43] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:44] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:44] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:45] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:45] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:46] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:46] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:47] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:48] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:48] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:49] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:50] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:50] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:51] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:51] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:52] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:53] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:53] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:54] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:54] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:55] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:55] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:56] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:56] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:57] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:58] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:58] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:59] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:32:59] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:0] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:1] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:1] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:2] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:3] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:3] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:4] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:4] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:5] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:5] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:6] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:7] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:7] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:8] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:8] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:9] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:10] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:11] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:11] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:12] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:12] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:13] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:14] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:14] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:15] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:15] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:16] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:17] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:17] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:18] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:18] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:19] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:20] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:20] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:21] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:21] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:22] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:23] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:23] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:24] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:24] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:25] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:25] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:26] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:27] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:27] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:28] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:29] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:29] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:46] {SEVERE} HUEBOT - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:173)
+	at org.telegram.telegrambots.meta.api.methods.send.SendMessage.deserializeResponse(SendMessage.java:24)
+	at org.telegram.telegrambots.bots.DefaultAbsSender.sendApiMethod(DefaultAbsSender.java:666)
+	at org.telegram.telegrambots.meta.bots.AbsSender.execute(AbsSender.java:47)
+	at org.example.handlers.HueHandlers.sendStateMessage(HueHandlers.java:147)
+	at org.example.handlers.HueHandlers.handleIncomingMessage(HueHandlers.java:61)
+	at org.example.handlers.HueHandlers.onUpdateReceived(HueHandlers.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.example.handlers.HueHandlers.onUpdatesReceived(HueHandlers.java:172)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:305)
+[23_3_2023_17:33:57] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:58] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:59] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:33:59] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:34:0] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:34:0] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:34:1] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:34:2] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:34:2] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:34:3] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:34:4] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:34:4] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:34:5] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:34:5] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:34:6] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:34:7] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:34:7] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:35:22] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:35:23] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:35:24] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:35:25] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:35:25] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:35:26] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:35:26] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:35:27] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:35:28] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:35:28] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:35:29] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:35:29] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:35:30] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:35:31] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:35:31] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:35:32] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:35:33] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:35:33] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:35:34] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:35:34] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:35:35] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:35:36] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:35:36] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)
+[23_3_2023_17:35:37] {SEVERE} BOTSESSION - org.telegram.telegrambots.meta.exceptions.TelegramApiRequestException: Unable to deserialize response
+	at org.telegram.telegrambots.meta.api.methods.updates.GetUpdates.deserializeResponse(GetUpdates.java:122)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.getUpdatesFromServer(DefaultBotSession.java:256)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$ReaderThread.run(DefaultBotSession.java:185)

@@ -1,73 +1,69 @@
 package org.example.hue;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.DeserializationFeature;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.json.JsonMapper;
-import com.fasterxml.jackson.databind.module.SimpleModule;
+import io.github.zeroone3010.yahueapi.Color;
 import io.github.zeroone3010.yahueapi.Hue;
-import io.github.zeroone3010.yahueapi.Light;
 import io.github.zeroone3010.yahueapi.Room;
+import io.github.zeroone3010.yahueapi.State;
 import org.example.hue.objects.LightBulb;
 import org.example.hue.objects.LightObjects;
 //import org.example.utils.BooleanDeserializer;
-import org.springframework.http.HttpEntity;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.client.RestTemplate;
+import org.example.mock.HueMock;
 
-import java.io.IOException;
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.Comparator;
 import java.util.List;
-import java.util.Map;
+
+import static java.util.stream.Collectors.joining;
 
 public class HueController {
-    private final Hue hue;
+    ///private final Hue hue;
 
     public HueController() {
-        hue = new Hue(HueConfig.BRIDGE_IP, HueConfig.API_KEY);
+//        hue = new Hue(HueConfig.BRIDGE_IP, HueConfig.API_KEY);
     }
 
 
-//    public static void main(String[] args) throws IOException {
-//        HueController hueController = new HueController();
-//        hueController.test();
-//    }
-//        public String test() throws IOException {
-//            RestTemplate restTemplate = new RestTemplate();
-//
-//            HttpEntity<String> request = new HttpEntity<>(new String());
-//
-//          ResponseEntity<String> output =   restTemplate.getForEntity(HueConfig.BRIDGE_IP+ HueConfig.LIGHTS_METHOD, String.class);
-//            Map<String, Object> response = new ObjectMapper().readValue(output.getBody(), HashMap.class);
-//
-//
-//            LightObjects response1 =             new ObjectMapper().readValue(output.getBody(), LightObjects.class);
-//            System.out.println(response1.getClass());
-//            System.out.println(output.getBody());
-//        return response1.toString();
-//    }
-    public String  getAllLights(){
-        RestTemplate restTemplate = new RestTemplate();
 
-        HttpEntity<String> request = new HttpEntity<>(new String());
+    public String getEnvironmentDescription(){
 
-        ResponseEntity<String> output =   restTemplate.getForEntity(HueConfig.BRIDGE_IP+ HueConfig.LIGHTS_METHOD, String.class);
+        HueMock hueMock = new HueMock();
+        Hue hue = hueMock.createHueAndInitializeMockServer();
+
+        StringBuilder response = new StringBuilder();
+
+        response.append("*Комнат: "+ hue.getRooms().size()).append("*\n");
+        hue.getRooms().forEach(r -> {
+            response.append("В комнате *'").append(r.getName()).append("'* размещены приборы освещения: \n");
+                 r.getLights().forEach(light -> response.append("\t Лампа *'"+ light.getName()+ "'* состояние: *" + (light.getState().getOn()?"включён":"выключен")).append("*\n"));
+        });
 
 
-        Hue hue1 = new Hue(HueConfig.BRIDGE_IP, HueConfig.API_KEY);
-        LightObjects lights = null;
-        try {
-            lights = new ObjectMapper().readValue(output.getBody(), LightObjects.class);
-        } catch (JsonProcessingException e) {
-            e.printStackTrace();
-            return null;
-        }
+        response.append("*Датчики движения* : \n");
+        hue.getPresenceSensors().forEach(s -> response.append("\t").append(s.getName()).append(": ").append(s.isPresence()).append("\n"));
 
-        String lightDescriptions = lightDescription(lights);
+        response.append("*Датчики температуры:* ");
+        hue.getTemperatureSensors().forEach(s -> response.append("\t ").append(s.getName()).append(": показания температуры: ").append(s.getDegreesCelsius()).append("\n"));
 
-        return lightDescriptions;
+        return response.toString();
+    }
 
+    public void turnLightInRoom(String name){
+        HueMock hueMock = new HueMock();
+        Hue hue = hueMock.createHueAndInitializeMockServer();
+        hue.getRoomByName(name).get().setState(State.builder().color(Color.of(java.awt.Color.PINK)).on());
+
+    }
+
+    public void turnOffLightInRoom(String name){
+        HueMock hueMock = new HueMock();
+        Hue hue = hueMock.createHueAndInitializeMockServer();
+        hue.getRoomByName(name).get().setState(State.builder().color(Color.of(java.awt.Color.PINK)).off());
+
+    }
+    public List<Room> getRooms(){
+        HueMock hueMock = new HueMock();
+        Hue hue = hueMock.createHueAndInitializeMockServer();
+        return new ArrayList<>(hue.getRooms());
     }
 
 

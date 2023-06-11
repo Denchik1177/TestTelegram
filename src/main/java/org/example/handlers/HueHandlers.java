@@ -1,46 +1,66 @@
 package org.example.handlers;
 
-import com.lilittlecat.chatgpt.offical.ChatGPT;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import io.github.zeroone3010.yahueapi.Room;
 import org.example.BotConfig;
 import org.example.hue.HueController;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Message;
 import org.telegram.telegrambots.meta.api.objects.Update;
+import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.ReplyKeyboardMarkup;
+import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKeyboardButton;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
-import org.telegram.telegrambots.meta.logging.BotLogger;
 
 import java.io.InvalidObjectException;
+import java.util.ArrayList;
 import java.util.List;
 
 public class HueHandlers extends TelegramLongPollingBot {
-    private static final String LOGTAG = "HUEBOT";
-    private static final int WAITINGCHANNEL = 1;
+
     private static final String HELP_TEXT = "Тут ты можешь выполнить управление умным домом";
     private static final String CANCEL_COMMAND = "/stop";
     private static final String STATE_COMMAND = "/state";
-    //    private static final String AFTER_CHANNEL_TEXT = "A message to provided channel will be sent if the bot was added to it as admin.";
-//    private static final String WRONG_CHANNEL_TEXT = "Wrong username, please remember to add *@* before the username and send only the username.";
-//    private static final String CHANNEL_MESSAGE_TEXT = "This message was sent by *@updateschannelbot*. Enjoy!";
     private static final String ERROR_MESSAGE_TEXT = "There was an error sending the message to channel *%s*, the error was: ```%s```";
     private final HueController hueController = new HueController();
 
-//    private final ConcurrentHashMap<Integer, Integer> userState = new ConcurrentHashMap<>();
+
+
 
     @Override
     public void onUpdateReceived(Update update) {
         try {
-            Message message = update.getMessage();
-            if (message != null && message.hasText()) {
-                try {
-                    handleIncomingMessage(message);
-                } catch (InvalidObjectException e) {
-                    BotLogger.severe(LOGTAG, e);
+            if (update.hasMessage()) {
+                Message message = update.getMessage();
+                if (message != null && message.hasText() && (message.getFrom().getId() == 518008985 || message.getFrom().getId() == 550634338))
+                 {
+                    try {
+                        handleIncomingMessage(message);
+                    } catch (InvalidObjectException e) {
+                        e.printStackTrace();
+                    }
                 }
+            } else if (update.hasCallbackQuery()) {
+                ObjectMapper objectMapper = new ObjectMapper();
+                JsonNode jsonNode = objectMapper.readTree(update.getCallbackQuery().getData());
+               if (update.getCallbackQuery().getData().contains("turnON")){
+                   String name = jsonNode.get("turnON").asText();
+                   hueController.turnLightInRoom(name);
+                   sendReplyText(update.getCallbackQuery().getMessage()
+                           , "Свет в "+name + " включен \uD83D\uDC9A");
+               }else{
+                   String name = jsonNode.get("turnOFF").asText();
+                   hueController.turnOffLightInRoom(name);
+                   sendReplyText(update.getCallbackQuery().getMessage(), "Свет в "+name + " выключен \uD83D\uDC9A");
+
+               }
+
+                System.out.println(update.getUpdateId());
             }
         } catch (Exception e) {
-            BotLogger.error(LOGTAG, e);
+            e.printStackTrace();
         }
     }
 
@@ -49,20 +69,8 @@ public class HueHandlers extends TelegramLongPollingBot {
         String command = message.getText();
         if (STATE_COMMAND.equals(command)) {
             sendStateMessage(message.getChatId(), message.getMessageId(), null);
-        } else {
-            gptReaction(message.getChatId(), message.getMessageId(), null, command);
         }
-//        int state = userState.getOrDefault(message.getFrom().getId(), 0);
-//        switch(state) {
 
-//            case HELP_TEXT:
-//                sendHelpMessage(message.getChatId(), message.getMessageId(), null);
-
-//            default:
-//                sendHelpMessage(message.getChatId(), message.getMessageId(), null);
-//                userState.put(message.getFrom().getId(), WAITINGCHANNEL);
-//                break;
-//        }
     }
 
     private void sendHelpMessage(Long chatId, Integer messageId, ReplyKeyboardMarkup replyKeyboardMarkup) {
@@ -78,37 +86,11 @@ public class HueHandlers extends TelegramLongPollingBot {
         try {
             execute(sendMessage);
         } catch (TelegramApiException e) {
-            BotLogger.error(LOGTAG, e);
+            e.printStackTrace();
         }
     }
 
-    private void gptReaction(Long chatId, Integer messageId, ReplyKeyboardMarkup replyKeyboardMarkup, String message) {
-        SendMessage sendMessage = new SendMessage();
-        sendMessage.enableMarkdown(true);
-        sendMessage.setChatId(chatId);
-        sendMessage.setReplyToMessageId(messageId);
-        if (replyKeyboardMarkup != null) {
-            sendMessage.setReplyMarkup(replyKeyboardMarkup);
-        }
-        String output;
-        ChatGPT gpt = new ChatGPT("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");
 
-
-        while (true) {
-            try {
-                output = gpt.ask(message);
-                break;
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-        sendMessage.setText(output);
-        try {
-            execute(sendMessage);
-        } catch (TelegramApiException e) {
-            BotLogger.error(LOGTAG, e);
-        }
-    }
 
     private void sendStateMessage(Long chatId, Integer messageId, ReplyKeyboardMarkup replyKeyboardMarkup) {
         SendMessage sendMessage = new SendMessage();
@@ -121,15 +103,57 @@ public class HueHandlers extends TelegramLongPollingBot {
 
         // FIXME: 20.03.2023
 
-        sendMessage.setText(hueController.getAllLights());
+        sendMessage.setText(hueController.getEnvironmentDescription());
+
+        ArrayList<Room> rooms = (ArrayList<Room>) hueController.getRooms();
+
+        InlineKeyboardMarkup markupInline = new InlineKeyboardMarkup();
+        List<List<InlineKeyboardButton>> rowsInline = new ArrayList<>();
+        List<InlineKeyboardButton> rowInline = new ArrayList<>();
+        List<InlineKeyboardButton> rowInline2 = new ArrayList<>();
+        rooms.forEach(room -> {
+            InlineKeyboardButton inlineKeyboardButton = new InlineKeyboardButton("\uD83D\uDFE2 " + room.getName());
+            inlineKeyboardButton.setCallbackData("{\"turnON\": \""+ room.getName()+"\"}");
+            rowInline.add(inlineKeyboardButton);
+
+            InlineKeyboardButton inlineKeyboardButton2 = new InlineKeyboardButton("\uD83D\uDD34 " + room.getName());
+            inlineKeyboardButton2.setCallbackData("{\"turnOFF\": \""+ room.getName()+"\"}");
+            rowInline2.add(inlineKeyboardButton2);
+        });
+
+        // Set the keyboard to the markup
+        rowsInline.add(rowInline);
+        rowsInline.add(rowInline2);
+        // Add it to the message
+        markupInline.setKeyboard(rowsInline);
+        sendMessage.setReplyMarkup(markupInline);
 
         try {
             execute(sendMessage);
         } catch (TelegramApiException e) {
-            BotLogger.error(LOGTAG, e);
+            e.printStackTrace();
         }
     }
 
+
+
+
+
+    private void sendReplyText(Message message, String context) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.enableMarkdown(true);
+        sendMessage.setChatId(message.getChatId());
+        sendMessage.setReplyToMessageId(message.getMessageId());
+
+        sendMessage.setText(context);
+        sendMessage.enableMarkdown(true);
+
+        try {
+            execute(sendMessage);
+        } catch (TelegramApiException e) {
+            e.printStackTrace();
+        }
+    }
     private void sendErrorMessage(Message message, String errorText) {
         SendMessage sendMessage = new SendMessage();
         sendMessage.enableMarkdown(true);
@@ -142,7 +166,7 @@ public class HueHandlers extends TelegramLongPollingBot {
         try {
             execute(sendMessage);
         } catch (TelegramApiException e) {
-            BotLogger.error(LOGTAG, e);
+            e.printStackTrace();
         }
     }
 
